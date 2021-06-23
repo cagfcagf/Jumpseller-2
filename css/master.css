@@ -1,0 +1,273 @@
+:root {
+  --MainGreen: #00eb8f;
+  --MainBlack: #282e3c;
+  --SecondaryGreen: #E5FDF4;
+
+}
+
+* {
+  font-family: Montserrat;
+}
+
+button a {
+  text-decoration: none;
+  color: var(--MainGreen);
+}
+
+button a:hover {
+  color: white;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--MainBlack);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  color: var(--MainGreen);
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+
+}
+
+.btn-main {
+  width: max-content;
+  background-color: white;
+  border-width: 0px;
+font-family: sans-serif;
+height: auto;
+transition: all .4s ease;
+padding: 15px 45px;
+text-shadow: none;
+line-height: 1.5em;
+border-radius: 45px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+color: var(--MainGreen);
+font-weight: 700;
+text-transform: uppercase;
+
+}
+
+.btn-main:hover, .btn-main--secondary:hover {
+background-color: var(--MainGreen);
+color: white;
+}
+
+.btn-main--secondary{
+  display: block;
+  width: max-content;
+  background-color: var(--MainBlack);
+  border-width: 0px;
+  font-family: sans-serif;
+  height: auto;
+  transition: all .4s ease;
+  padding: 15px 45px;
+  text-shadow: none;
+  line-height: 1.5em;
+  border-radius: 45px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--MainGreen);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#sectionFaq ul {
+  margin-top: -1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+#navbarTogglerDemo03 {
+  flex-grow: 0;
+}
+
+.navbar {
+  background-color: var(--MainBlack);
+}
+
+.logo {
+  height: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cristian {
+  max-height: 600px;
+}
+
+
+#SectionWelcomeBase {
+  background-color: var(--MainBlack);
+    padding-top: 5rem;
+}
+
+#sectionValues {
+  padding: 3rem 5rem;
+}
+
+
+
+#sectionValues p {
+  color: var(--MainBlack);
+  text-align: center;
+
+}
+
+#sectionValues img {
+  height: 50px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#sectionMainVideos, #sectionFaqBackground, #sectionHelpBack {
+  background-color: var(--SecondaryGreen);
+}
+
+#sectionMainVideos, #sectionCourseVideos, #sectionEmprendimientoVideos, #sectionFaq {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+#sectionMainVideos div, #sectionCourseVideos div, #sectionEmprendimientoVideos div, #sectionFaq div{
+  padding-bottom: 2rem;
+}
+
+#sectionHelp {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 300px;
+}
+
+.helpContainer {
+  padding: 2rem 1.5rem;
+  background-color: var(--SecondaryGreen);
+}
+
+
+.titulo {
+  color: var(--MainBlack);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#sectionEmprendimientoVideos h2 {
+  margin-bottom: 0.5rem;
+  color: var(--MainBlack);
+  text-align: center;
+
+}
+
+#sectionEmprendimientoVideos > p {
+  color: var(--MainBlack);
+  text-align: center;
+  margin-bottom: 4em;
+
+}
+
+.pregunta {
+  color: var(--MainBlack);
+  font-size: 1.2rem;
+  text-align: justify;
+  font-weight: 700;
+}
+
+.respuesta {
+  color: var(--MainBlack);
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 3rem;
+
+}
+
+.helpTitle {
+  color: var(--MainBlack);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.helpText {
+  color: var(--MainBlack);
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.fotoCristian {
+  background-image: url("../media/cristianig.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#sectionHelp {
+
+}
+
+@media all and (max-width: 848px) {
+
+  .fotoCristian {
+    min-height: 300px;
+  }
+}
+
+
+@media all and (max-width: 768px) {
+
+  .fotoCristian {
+    min-height: 300px;
+  }
+
+  .cristian {
+    display: none;
+  }
+
+  #sectionWelcome button{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
+
+@media all and (max-width: 728px) {
+
+
+ iframe {
+   width: 90vw;
+  }
+
+  .fotoCristian {
+    min-height: 300px;
+  }
+
+
+}
